@@ -1,0 +1,201 @@
+body,h1,h2,h3,p,ul,ol,form,input,textarea,th,td,select { margin:0;padding:0;}
+em { font-style:normal}
+a { text-decoration:none;}
+li { list-style:none;}
+img { border:none; vertical-align:top;}
+table{ border-collapse:collapse;}
+textarea{ resize:none; overflow:auto; }
+body { background:#fff; font-size:12px; font-family:"微软雅黑 宋体"; }
+#wrap { height:700px; position:relative; background:url(../images/bg.jpg) center no-repeat; }
+
+/* == 上外框 == */
+#wrap .top { height:34px; line-height:35px; width:1280px; background:#004ea1; border-bottom:1px solid #999; }
+#wrap .top .logo { float:left; }
+#wrap .top .s_logo { float:left; margin:6px 10px 11px 22px; }
+#wrap .top span { display:block; height:35px; line-height:35px; float:left; color:#fff; font-size:16px; }
+#wrap .top a { float:right; margin-right:24px; color:#fff; }
+#wrap .top .log_out { margin-right:20px; }
+
+/* == 主要内容 == */
+.wrap { margin:0 auto; width:1280px; }
+#wrap .main { width:1254px; height:586px; padding:18px 0 0 26px; color:#fff; float:left; }
+.main a { padding:5px; color:#fff; font:12px Arial; float:left; text-decoration:none; -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; border-radius:4px; behavior:url(pie.htc); /*处理圆角兼容*/ }
+.main a:hover { background:#9c799a;  /*超链接鼠标移上去样式*/ }
+
+.main .active { background:#9c799a; /*完成状态链接样式*/ }
+
+.main ul li { height:25px; line-height:25px; float:left; }
+.main .headLine { font-size:14px; height:31px; line-height:30px; text-align:center; }
+.main .arrowR_wrap { width:4px; height:7px; float:left; background:url(../images/all.png) -390px -527px no-repeat; }
+.main .arrowL_wrap { width:4px; height:7px; float:left; margin-top:10px; background:url(../images/all.png) -386px -527px no-repeat; }
+.main .arrowU_wrap { width:7px; height:4px; float:left; background:url(../images/all.png) -394px -527px no-repeat; }
+.main .arrowD_wrap { width:7px; height:4px; float:left; background:url(../images/all.png) -394px -531px no-repeat; }
+.main .fixedR_span { margin-right:8px; margin-top:10px; }
+
+/* == 启动过程组 == */
+.main .proStart { float:left; }
+.proStart div { width:200px; background:url(../images/all.png) -60px -611px no-repeat; }
+.proStart ul { width:193px; height:73px; padding:11px 0 0 7px; background:url(../images/all.png) -60px -527px no-repeat; }
+.proStart ul li { width:178px; }
+.proStart_p1 { width:104px; overflow:hidden; float:left; }
+.proStart_p1 a { float:left; }
+.proStart_p1 span { display:block; height:25px; float:right; }
+.proStart_p1 span img { margin-top:13px; }
+.proStart_p2,.proStart_p2 a{ float:right; }
+.proStart_p2 img { margin-top:10px; float:left; }
+.proStart .arrowR { margin-top:10px; }
+
+/* == 规划过程组 == */
+.main .planProcess { float:left; margin-left:35px; }
+.planProcess .headLine { width:990px; background:url(../images/all.png) 0px -436px no-repeat; }
+.planProcess ul { width:947px; height:185px; padding:11px 0 0 44px; background:url(../images/all.png) 0px -240px no-repeat; }
+.planProcess .a_LineImg1 { width:71px; height:1px; float:left; margin:12px 0 0 -84px; overflow:hidden; }
+.planProcess .arrowR1 { margin:9px 0 0 -13px; }
+.planProcess .li1 { text-align:left; }
+.planProcess .li1_a { float:left; margin-right:520px; }
+.planProcess .v_LineImg1 { width:1px; height:8px; float:left; margin:30px 0 0 -54px; overflow:hidden; }
+.planProcess .arrowU1 { float:left; margin:26px 0 0 -57px; }
+.planProcess .li2 { clear:both; }
+.planProcess .a_LineImg2 { width:66px; height:1px; float:left; margin:12px 0 0 -79px; overflow:hidden; }
+.planProcess .arrowR2 { margin:9px 0 0 -13px; }
+.p { overflow:hidden; float:left; }
+.p a { float:left; }
+.p span { display:block; height:25px; float:left; }
+.p span img { margin-top:13px; }
+.planPro_p1 { width:96px; }
+.planPro_p1 span img { margin-top:13px; }
+.planPro_p2 a, .planPro_p3 a, .planPro_p3 a, .planPro_p4 a, .planPro_p5 a, .planPro_p6 a { float:right; }
+.planPro_p2 { width:112px; float:left; }
+.planPro_p3 { font-family:"Tahoma"; width:118px; float:left; }
+.planPro_p4 { width:112px; }
+.planPro_p5 { width:140px; }
+.planPro_p6 { width:140px; }
+.planProcess .li2 a { float:left; }
+.planProcess .li2 .li2_a3 { margin-top:-1px; font-size:12px }
+.planProcess .li2 .li2_p { width:41px; margin:0 14px 0 9px; float:left; }
+.planProcess .li2 .li2_p span { width:37px; }
+.planProcess .li3 { clear:both; } 
+.planProcess .v_LineImg2 { width:1px; height:30px; float:left; margin:2px 0 0 241px; overflow:hidden; }
+.planProcess .v_LineImg3 { width:1px; height:33px; float:left; margin:2px 0 0 11px; overflow:hidden; }
+.planProcess .arrowD1 { float:left; margin:35px 0 0 -4px; }
+.planProcess .v_LineImg4 { width:1px; height:9px; float:left; margin:2px 0 0 12px; overflow:hidden; }
+.planProcess .a_LineImg3 { width:219px; height:1px; float:left; margin-top:10px; overflow:hidden; }
+.planProcess .v_LineImg5 { width:1px; height:5px; float:left; margin-top:10px; overflow:hidden; }
+.planProcess .arrowD2 { float:left; margin:14px 0 0 -4px; }
+.planProcess .v_LineImg6 { width:1px; height:5px; float:left; margin-left:-124px; overflow:hidden; }
+.planProcess .a_LineImg4 { width:415px; height:1px; float:left; margin:4px 0 0 -123px; overflow:hidden; }
+.planProcess .v_LineImg7 { width:1px; height:5px; float:left; margin-left:-290px; overflow:hidden; }
+.planProcess .v_LineImg8 { width:1px; height:14px; float:left; margin-left:-155px; overflow:hidden; } 
+.planProcess .arrowD3 { float:left; margin:13px 0 0 -158px; }
+.planProcess .v_LineImg9 { width:1px; height:5px; float:left; overflow:hidden; } 
+.planProcess .li4 { clear:both; margin-top:-7px; }
+.planProcess .a_LineImg5 { width:285px; height:1px; float:left; margin:13px 0 0 -179px; overflow:hidden; }
+.planPro_p8 { width:134px; }
+.planPro_p8 a{ float:left; }
+.planProcess .v_LineImg10 { width:1px; height:4px; float:left; margin:13px 0 0 27px; overflow:hidden; }
+.planProcess .arrowD4 { float:left; margin:17px 0 0 -4px; }
+.planPro_p9 { width:144px; margin-left:-3px; }
+.planPro_p9 span { float:right; }
+.planPro_p9 a{ float:right; }
+.planPro_p9 img { float:right; margin:10px 0 0 10px; }
+.planPro_p10 { width:124px; margin-left:-3px; }
+.planPro_p10 span { float:right; }
+.planPro_p10 a{ float:right; }
+.planPro_p10 img { float:right; margin:10px 0 0 10px; }
+.planPro_p11 { width:136px; }
+.planPro_p11 span { float:right; }
+.planPro_p11 a{ float:right; }
+.planPro_p11 img { margin-top:10px; float:right; }
+.planProcess .li5 { clear:both; margin:-4px 0 0 226px; }
+.planPro_p12 { width:404px; }
+.planPro_p12 a{ float:left; }
+.planProcess .v_LineImg11 { width:1px; height:10px; float:left; margin-top:4px; overflow:hidden; }
+.planProcess .v_LineImg12 { width:1px; height:5px; float:left; margin-left:348px; overflow:hidden; }
+.planProcess .arrowD5 { float:left; margin:5px 0 0 -4px; }
+.planProcess .v_LineImg13 { width:1px; height:10px; float:right; margin-right:88px; overflow:hidden; }
+.planProcess .arrowD6 { float:left; margin:9px -4px 0 0; float:right; }
+.planProcess .li6 { clear:both; }
+.planPro_p13 { width:124px; }
+.planPro_p13 span img { margin-top:13px; }
+.planPro_p14 { width:110px; }
+.planPro_p14 a{ float:left; }
+.planPro_p15 { width:138px; }
+.planPro_p15 a{ float:left; }
+.planPro_p16 { width:135px; }
+.planPro_p16 a{ float:left; }
+.planPro_p17 { width:px; }
+.planPro_p17 a{ float:left; }
+.planProcess .v_LineImg14 { width:1px; height:40px; float:left; margin:-8px 0 0 86px; overflow:hidden; }
+.planProcess .a_LineImg6 { width:37px; height:1px; float:left; margin-top:13px; overflow:hidden; }
+.planProcess .arrowR3 { float:left; margin-top:10px; }
+.planProcess .no_span { float:left; margin-left:78px; }
+
+/* == 执行过程 == */
+.main .proGo { clear:both; height:101px; margin-top:233px; *margin-top:201px; }
+.proGo .headLine { width:60px; height:78px; line-height:26px; padding-top:22px; float:left; background:url(../images/all.png) -260px -527px no-repeat; }
+.proGo ul { width:1032px; height:100px; float:left; margin-left:1px; background:url(../images/all.png) no-repeat; }
+.proGo .no-margin { margin-right:0px; }
+.proGo .v_LineImg15 { width:1px; height:128px; float:left; margin:-97px 0 0 38px; overflow:hidden; }
+.proGo .arrowD7 { float:left; margin:30px 0 0 -4px; float:left; }
+.proGo .li1 p { padding-top:16px; margin-left:511px; }
+.proGo .li2 { clear:both; margin-top:10px; }
+.proGo .li2 p { margin-left:14px; }
+.proGo .li3 { clear:both; margin-top:0px; } 
+.proGo .v_LineImg16 { width:1px; height:49px; float:left; margin:11px 0 0 38px; overflow:hidden; }
+.proGo .p { width:85px; }
+.proGo .p a{ float:left; }
+.proGo .proGo_p1 { margin-left:50px; width:81px; }
+.proGo .proGo_p10 { width:65px; }
+.proGo .proGo_p11 { float:left; width:86px; }
+.proGo .a_LineImg7 { width:14px; height:1px; float:left; margin-top:70px; overflow:hidden; }
+.proGo .proGo_arrow { float:left; margin-top:67px; }
+.main .v_LineImg17 { width:1px; height:85px; float:left; margin:-14px 0 0 0px; overflow:hidden; }
+.main .v_LineImg18 { width:1px; height:114px; float:left; margin:-14px 0 0 27px; overflow:hidden; }
+.main .v_LineImg19 { width:1px; height:114px; float:left; margin:-14px 0 0 28px; overflow:hidden; }
+.main .v_LineImg20 { width:1px; height:9px; float:left; margin:5px 0 0 -4px; overflow:hidden; }
+.main .arrowU { margin:1px 0 0 544px; }
+.main .arrowD8 { margin:14px 0 0 -7px; }
+
+/* == 监控过程组 == */
+.main .proControl { clear:both; height:141px; margin-top:1px; }
+.main .proControl .headLine { width:60px; height:93px; line-height:26px; padding-top:48px; float:left; background:url(../images/all.png) 0px -527px no-repeat; }
+.main .proControl  ul { width:923px; height:140px; float:left; margin-left:1px; background:url(../images/all.png) 0px -100px no-repeat; }
+.proControl ul li { height:15px; line-height:15px; }
+.proControl .v_LineImg21 { width:1px; height:35px; float:left; margin-left:38px; overflow:hidden; }
+.proControl .arrowD9 { float:left; margin:35px 0 0 -4px; float:left; }
+.proControl .li1 p { float:left; padding-top:16px; margin-left:405px; }
+.proControl .li2 { clear:both; height:25px; line-height:25px; margin-top:41px; }
+.proControl .li2 p { float:left; margin-left:14px; }
+.proControl .li2 a{ float:left; margin-left:59px; }
+.proControl .li2 .a1{ margin-left:59px;	}
+.proControl .v_LineImg22 { width:1px; height:65px; float:left; margin:3px 0 0 38px; overflow:hidden; }
+.proControl .li3 .a_LineImg8 { width:792px; height:1px; float:left; margin:6px 0 0 79px; overflow:hidden; }
+.proControl .v_LineImg23 { width:1px; height:12px; float:left; margin:7px 0 0 -410px; overflow:hidden; }
+.proControl .arrowD10 { float:left; margin:19px 0 0 -413px; float:left; }
+.proControl .li4 { clear:both; margin-top:8px; }
+.proControl .li4 a { float:left; margin-left:448px; }
+.proControl .a_LineImg9 { width:151px; height:1px; float:left; margin-top:70px; overflow:hidden; }
+.proControl .v_LineImg24 { width:1px; height:91px; float:left; margin-top:-20px; overflow:hidden; }
+.proControl .v_LineImg25 { width:1px; height:159px; float:left; margin:-20px 0 0 28px; overflow:hidden; }
+.proControl .proControl_arrow { margin-top:67px; }
+
+/* == 收尾过程 == */
+.main .proEnd { clear:both; height:61px; margin-top:8px; }
+.proEnd .headLine{ width:60px; height:56px; line-height:26px; padding-top:4px; float:left; background:url(../images/all.png) -321px -557px no-repeat; }
+.proEnd ul { width:822px; height:59px; float:left; margin-left:1px; background:url(../images/all.png) 0px -467px no-repeat; }
+.proEnd .v_LineImg26 { width:1px; height:11px; float:left; margin-left:38px; overflow:hidden; }
+.proEnd .arrowD11 { float:left; margin:11px 0 0 -4px; float:left; }
+.proEnd .v_LineImg27 { width:1px; height:16px; float:left; margin:-9px 0 0 694px; overflow:hidden; }
+.proEnd .arrowD12 { float:left; margin-left:691px; }
+.proEnd .li2 { margin-top:-6px; }
+.proEnd .li2 p { float:left; }
+.proEnd .p1 { margin-left:14px; }
+.proEnd .li2 .a_LineImg10 { width:603px; height:1px; float:left; margin:12px 0 0 14px; overflow:hidden; }
+.proEnd .li2 .proEnd_arrow1 { float:left; margin-top:9px; }
+.proEnd .p2 { margin-left:13px; }
+.proEnd .a_LineImg11 { width:281px; height:1px; float:left; margin-top:33px; overflow:hidden; }
+.proEnd .proEnd_arrow2 { margin-top:30px; }
+.proEnd .v_LineImg28 { width:1px; height:44px; float:left; margin-top:-10px; overflow:hidden; }
+
+/* == 底部 == */
+.footer { height:40px; background:#004ea1; position:absolute; left:0; bottom:0; }
